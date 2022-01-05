@@ -1,7 +1,7 @@
 {
     "name": "co2-sensor-scd40",
-    "version": "0.0.0",
-    "description": "",
+    "version": "0.1.1",
+    "description": "Calliope mini CO2-Sensor",
     "dependencies": {
         "core": "*",
         "radio": "*"
@@ -9,7 +9,8 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "SCD40.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -18,5 +19,5 @@
     "supportedTargets": [
         "calliopemini"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
